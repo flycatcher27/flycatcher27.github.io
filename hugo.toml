@@ -1,0 +1,10 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en'
+title = 'Arvind Raju'
+theme = 'gallery'
+
+[params]
+  defaultTheme = "dark"
+  [params.gallery]
+    boxSpacing = 28
+    targetRowHeight = 260

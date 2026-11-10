@@ -1,0 +1,13 @@
+{{- $first := index .Pages 0 -}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url={{ $first.RelPermalink }}">
+  <link rel="canonical" href="{{ $first.Permalink }}">
+  <style>html{background:#0a0a0a;color:#a3a3a3;font-family:Georgia,serif}</style>
+</head>
+<body><p><a href="{{ $first.RelPermalink }}">{{ $first.Title }}</a></p></body>
+</html>

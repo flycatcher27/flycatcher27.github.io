@@ -1,0 +1,13 @@
+:root {
+  --surface-1-dark: #171716;
+  --surface-2-dark: #2a2927;
+  --text-1-dark: #dcdad5;
+  --text-2-dark: #9b9892;
+  --border-dark: #34332f;
+}
+body {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  letter-spacing: 0.01em;
+}
+hgroup h1 { font-weight: 400; font-size: 1.5rem; line-height: 2rem; }
+section.gallery { max-width: 1100px; padding-right: 1.5rem; padding-left: 1.5rem; }
